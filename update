@@ -1,5 +1,6 @@
 #/bin/bash
 git pull
+rm `find . -name \*.exe`
 cat .readme > README.md
 git init
 git add .
